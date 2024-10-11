@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffffb9;
+}
+
+/* --------------------WEB PAGE SIDE SCROLLBAR EDITING START-------------------- */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #ad8af4;
+    border: 3px solid #854fee;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+    border: 1PX solid rgb(8, 0, 255);
+}
+/* --------------------WEB PAGE SIDE SCROLLBAR EDITING END-------------------- */
+
+
+/* <!-- ----------heading title---S------- --> */
+.head-title{
+    height: 150px;
+    width: 100%;
+    /* margin-top: -22px; */
+    background-color: #ffffffb9;
+    /* border: 2px solid black; */
+}
+
+.BUSINESS-TITLE{
+    color: #6810ff;
+    margin-top: 30px;
+    text-align: center;
+}
+.BUSINESS-TITLE-TOPIC{
+    color: #6810ffb9;
+    margin-top: 30px;
+    text-align: center;
+}
+@media (max-width:425px) {
+    .BUSINESS-TITLE{
+        font-size: 25px;
+    }
+    .BUSINESS-TITLE-TOPIC{
+        font-size: 20px;
+    }
+}
+
+/* <!-- ----------heading title---E------- --> */
+
+
+
+/* <!-- ---------------IMG----S------------ --> */
+.img-main{
+    height: auto;
+    width: 100%;
+    background-color: #7b2eff;
+    display: flex;
+    justify-content: center;
+}
+.img-second-box{
+    height: auto;
+    width: 1200px;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-box{
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    margin: 10px;
+    z-index: 1;
+}
+.DECOR-img{
+    height: 300px;
+    width: 400px;
+    z-index: 3;
+}
+/* <!-- ---------------IMG----E------------ --> */
+
+
+
+.footer-bottem{
+    height: 200px;
+    width: 100%;
+    background-color: #9151ff;
+    border-top: 10px solid white;
+}
+.FOOTER-Commitment{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+@media (max-width:425px) {
+    .FOOTER-Commitment{
+        font-size: 15px;
+    }
+}
+
+.P-P-A{
+    color: white;
+    text-decoration: none;
+}

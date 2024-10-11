@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:#864AF9; */
+    background-color:#864AF9;
+    display: grid;
+    justify-content: center;
+}
+.head-text{
+    height: 100px;
+    width: 100vw;
+    background-color: #9962ff00;
+    text-align: center;
+}
+.head-text-title{
+    color: white;
+    font-size: 30px;
+}
+.content-main{
+    height: 550px;
+    width: 100vw;   
+    background-color: #9962ff00;
+    display: flex;
+    justify-content: space-around;
+}
+.content-main-two{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-one{
+    height: 550px;
+    width: 425px;
+    background-color: #a473ffaa;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    /* align-items: center;  */
+}
+
+/* -----height AND width of those two things are the same-----
+----------------------------------------------------------- */
+
+.item-img-contener{
+    height: 400px;
+    width: 350px;
+    background-color: antiquewhite;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+.item-img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* -----height AND width of those two things are the same-----
+----------------------------------------------------------- */
+
+.content-two{
+    height: 550px;
+    width: 425px;
+    background-color: #a473ffaa;
+    border-radius: 10px;
+}
+.text-one{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.text-two{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+.text-three{
+    color: white;
+    padding: 30px;
+    margin-top: -30px;
+    flex-wrap: wrap ;
+}
+
+/* -------TABLET------- */
+
+@media (max-width:891px) {
+    /* .head-text-title{
+        color: red  ;
+    } */
+    .content-one{
+        height: 450px;
+        width: 325px;
+    }
+    .item-img-contener{
+        height: 300px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 35px;
+    }
+    .item-img{
+        height: 300px;
+        width: 250px;
+    }
+    .content-two{
+        height: 450px;
+        width: 325px;
+    }
+}
+
+/* -------SMARTPHONE------- */
+
+@media(max-width:668px) {
+    .main{
+        height: 1200px;
+        width: 100vw;
+        /* background-color:#864AF9; */
+        background-color:#864AF9;
+        display: grid;
+        justify-content: center;
+    }
+    /* .head-text-title{
+        color: red  ;
+    } */
+    .text-one{
+        font-size: 20px;
+    }
+    .content-one{
+        height: 450px;
+        width: 325px;
+    }
+    .item-img-contener{
+        height: 300px;
+        width: 250px;
+        background-color: antiquewhite;
+        margin-top: 35px;
+    }
+    .item-img{
+        height: 300px;
+        width: 250px;
+    }
+
+    .content-two{
+        height: 500px;
+        width: 325px;
+    }
+    .content-main-two{
+        width: 900px;
+        display: grid;
+        justify-content: space-around;
+    }
+    .content-main{
+        height: 1000px;
+        width: 100vw;
+        margin-top: 20px;
+    }
+}

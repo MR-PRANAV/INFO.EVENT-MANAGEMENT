@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------WEB PAGE SIDE SCROLLBAR EDITING START-------------------- */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #ad8af4;
+    border: 3px solid #854fee;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+    border: 1PX solid #854fee;
+}
+/* --------------------WEB PAGE SIDE SCROLLBAR EDITING END-------------------- */
+
+.heading{
+    height: 180px;
+    width: 100%;
+    background-color: #854fee ;
+}
+.business-name{
+    color: white;
+    text-align: center;
+}
+@media (max-width:425px) {
+    .business-name{
+        font-size: 25px;
+    }
+}
+
+/* -----------same height for this two classes------ */
+.P-P-CONTENT_MAIN-FIRST{
+    height: 2700px;
+    width: 100%;
+    background-color: rgba(255, 126, 126, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.P-P-CONTENT_MAIN-SECOND{
+    color: #878787;
+    font-size: 20px;
+    height:2700px ;
+    width: 1000px;
+    background-color: rgba(0, 255, 255, 0); 
+    padding: 30px;
+    border: 2px solid #854fee;
+}
+.P-P-CONTENT_MAIN-SECOND>b{
+    color: #000000;
+}
+
+@media (max-width:425px) {
+    .P-P-CONTENT_MAIN-FIRST{
+        height: 6000px;
+    }
+    .P-P-CONTENT_MAIN-SECOND{
+        height: 6000px;
+    }
+}
+
+
+/* -----------same height for this two classes------ */
+
+.footer-content{
+    height: 150px;
+    width: 100%;
+    background-color: #854fee;
+}
+.INFO-E_M{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.back-to-main{
+    height: 30px;
+    width: 190px;
+    background-color: cornflowerblue;
+    position: absolute;
+    display: grid;
+}
+.back-to-text{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
